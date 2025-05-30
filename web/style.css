@@ -1,0 +1,39 @@
+body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+
+        header {
+            background-color: #333;
+            color: white;
+            padding: 1rem 20px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            width: 100%;
+            box-sizing: border-box;
+        }
+
+        header p#nome {
+            margin: 0;
+            font-size: 1.2rem;
+        }
+
+        header img#avatar {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-left: 1rem;
+            object-fit: cover;
+            border: 2px solid white;
+        }
+
+        main {
+            padding: 20px;
+            width: 100%;
+            max-width: 1200px;
+            margin: 20px auto;
+            box-sizing: border-box;
+        }

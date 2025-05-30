@@ -8,12 +8,12 @@
 </head>
 <body>
     <h1>Login</h1>
-    <form>
-        <label id="login">E-mail</label>
-        <input type="email" id="login">
-        <label id="senha">Senha</label>
-        <input type="password" id="senha">
-        <button onclick="validar()">Entrar</button>
+    <form id="loginForm"> 
+        <label for="email">E-mail</label>
+        <input type="email" id="email" required> 
+        <label for="password">Senha</label>
+        <input type="password" id="password" required> 
+        <button type="submit">Entrar</button> 
     </form>
     <script type="module" src="script.js"></script>
 </body>
