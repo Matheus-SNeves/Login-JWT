@@ -1,39 +1,27 @@
 body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f4f4f4;
-        }
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+    margin-top: 20vh;
 
-        header {
-            background-color: #333;
-            color: white;
-            padding: 1rem 20px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            width: 100%;
-            box-sizing: border-box;
-        }
+    form{
+        margin-left: 43.5vw;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 10px;
+        border: black 1px solid;
+        position: fixed;
 
-        header p#nome {
-            margin: 0;
-            font-size: 1.2rem;
+        button, label{
+            margin-top: 5%;
         }
-
-        header img#avatar {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            margin-left: 1rem;
-            object-fit: cover;
-            border: 2px solid white;
+        button:hover{
+            cursor: pointer;
+            background: rgb(180, 180, 180);
         }
-
-        main {
-            padding: 20px;
-            width: 100%;
-            max-width: 1200px;
-            margin: 20px auto;
-            box-sizing: border-box;
-        }
+    }
+}
